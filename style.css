@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/*Source Code Pro*/
+
+body{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+
+a{
+    text-decoration: none;
+    color: #F0CE71;
+    font-family: Source Code Pro;
+    font-size: 25px;
+}
+.header{
+    font-family: Source Code Pro;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 5px 4px 5px;
+    color: #49074C;
+}
+.principal{
+    background-color: #49074C;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 10px 40px 10px 40px;
+    margin: 140px auto 0 auto;
+    width: 500px;
+    height: 317px;
+}
+.instagram, .projetos, .email, .tendencias, .youtube{
+    border: 2px solid #49074C;
+    border-radius: 10px 40px 10px 40px;
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    
+}
+.instagram:hover{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+.projetos:hover{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+.email:hover{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+.tendencias:hover{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+.youtube:hover{
+    background-image: linear-gradient(to left, #FFD1BF, #F0CE71);
+}
+a:hover{
+    color: #49074C;
+}
+
+/*a:hover{
+    color: #FFD1BF;
+}*/
+
